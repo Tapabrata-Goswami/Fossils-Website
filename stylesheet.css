@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+.topbar{
+    text-align: center;
+    padding-top:8px;
+    padding-bottom:12px;
+    background-color:rgb(12, 12, 12);
+    /* box-shadow: 0 5px 10px lightblue; */
+}
+
+.fosils{
+    font: bold 36px monospace;
+}
+
+.fosils_sub{
+    font: 20px monospace;
+}
+
+ /* logo 
+.logo{
+    text-decoration: none;
+} */
+
+
+
+/* Nav Bar Design */
+
+.mainbar{
+    background-color: rgb(0, 0, 0);
+    filter:drop-shadow( 0 4px 1px rgba(61, 61, 61, 0.267));
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+li{
+    float:left;
+}
+
+li a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-weight: 500;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+a:hover{
+    background-color: rgb(198, 198, 255);
+}
+
+
+/* Body Design */
+
+.about{
+    display: flex;
+    padding:50px 20px;
+    height:400px;
+    vertical-align: middle;
+    background-color:#ebe9e8;
+}
+
+.about_fosslis,.video_intro{
+    width: 50%;
+}
+
+.about_fosslis{
+    padding:0 20px;
+}
+
+.about_fosslis{
+    text-align: justify;
+
+}
+
+.head_about_fosslis{
+    font-size:26px;
+    font-weight:600;
+}
+
+.about_details{
+    padding-top: 5px;
+    font-size:16px;
+}
+
+.bt1{
+    margin-top: 15px;
+    padding:10px 15px;
+    background-color: rgb(107, 107, 252);
+    border:none;
+    border-radius: 6px;
+    font-size:16px;
+    font-weight: 500;
+}
+
+.banner{
+    background-image:url(/images/download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:200px;
+}
+
+.container2{
+    display: flex;
+    padding: 50px 30px ;
+    background-color: rgb(116, 116, 117);
+}
+
+.s1,.s2,.s3{
+    width:33%;
+    padding:10px;
+}
+
+.footer{
+    padding:8px 0;
+    background-color: black;
+}
+
+footer div p{
+    text-align: center;
+    color:white;
+}
