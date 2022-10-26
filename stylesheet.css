@@ -104,7 +104,7 @@ a:hover{
 }
 
 .banner{
-    background-image:url(/images/download.jpeg);
+    background-image:url(../images/download.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
